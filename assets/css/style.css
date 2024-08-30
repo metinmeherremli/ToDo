@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.divinput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.384);
+    padding: 20px;
+    border-radius: 8px;
+    width: 450px;
+}
+
+#taskadder {
+    display: flex;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-color: rgb(255, 0, 0);
+}
+
+#taskadder::placeholder {
+
+    font-size: large;
+    color: rgb(246, 246, 246);
+
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.tasklist{
+    border: 3px solid rgba(128, 128, 128, 0.404);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    padding: 20px;
+    border-radius: 9px;
+    background-color: rgba(128, 128, 128, 0.389);
+}
+span{
+    font-size: large;
+    margin-right: 100px;
+}
